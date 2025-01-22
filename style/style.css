@@ -1,19 +1,36 @@
 body {
-    background-color: lightblue;
-    margin: 0;
+    margin: 0 auto;
+    
 }
-#navbar {
+nav {
     text-align: center;
     background-color: rgb(200, 31, 163);
     height: 60px;
     width: 100%;
     padding: 25px 0 0;
 }
-a {
+nav a {
     padding: 0px 10px 0px 0px;
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(105, 185, 255);
 }
+.a {
+    width: 80%;
+    height: 800px;
+    background-color: blue;
+}
+.b {
+    width: 20%;
+    height: 400px;
+    background-color: brown;
+}
+.c {
+    width: 75%;
+    display: inline-flex;
+    margin-inline: auto;
+}
+
+
 
 /*point  . for class
 # for id
