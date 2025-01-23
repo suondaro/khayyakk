@@ -1,6 +1,5 @@
 body {
     margin: 0 auto;
-    
 }
 nav {
     text-align: center;
@@ -26,8 +25,10 @@ nav a {
 }
 .c {
     width: 75%;
-    display: inline-flex;
-    margin-inline: auto;
+    display: flex;
+    margin-left: auto; 
+    margin-right: auto;  
+    text-align: center;
 }
 
 
