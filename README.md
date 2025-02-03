@@ -1,2 +1,0 @@
-# khayyakk
-Personal web

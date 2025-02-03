@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://www.istockphoto.com/illustrations/time-background-repeat);
+    background-repeat: repeat;
+    background-color: rgb(197, 197, 197);
+}
+
+header {
+    width: 1400px;
+    height: 180px;
+    background-color: #1cf300;
+}
+ 
+#logo {
+    height: 75%;
+    background-color: #2d2d2d;
+    margin-bottom: 1px;
+}
+
+img {
+    height: 100%;
+}
+
+#nav {
+    height: 25%;
+    background-color: #2d2d2d;
+    padding-top: 20px;
+}
+
+.list-normal {
+    color: aliceblue;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.list-normal:hover {
+    color: #1cf300;
+    font-weight: 800;
+    padding: 20px;
+    border-bottom: 2px solid #1cf300;
+}
+
+.list {
+    color: #1cf300;
+    font-weight: 800;
+    padding: 20px;
+    border-bottom: 2px solid #1cf300;
+}
