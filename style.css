@@ -2,7 +2,7 @@ body {
     background-image: url(https://www.istockphoto.com/illustrations/time-background-repeat);
     background-repeat: repeat;
     background-color: rgb(197, 197, 197);
-    width: 80%;
+    width: 1440px;
     height: 180px;
     margin: 0 auto;
 }
@@ -54,6 +54,7 @@ img {
 .content {
     height: 100vh;
     background-color: #ffffff;
+    padding: 20px;
 }
 
 .content-l {
@@ -61,17 +62,41 @@ img {
     display: inline-block;
 }
 
+.item {
+    border-top: 5px solid #202020;
+    display: inline-block;
+}
+
+.item > div {
+    display: inline-block;
+    padding: 10px;
+}
+
+h2 {
+    font-size: small;
+}
+
 .content-r {
     width: 30%;
     display: inline-block;
-    position: relative;
-    top: 10px;
+    position: absolute;
+    top: 24.8%;
+    bottom: 0;
+}
+
+.content-r > div {
+    margin: 0 auto;
 }
 
 footer {
     background-color: #353535;
+    height: 50px;
 }
 
 footer > div {
     display: inline-block;
+}
+
+footer > .footer-r {
+    padding-left: 900px;
 }
