@@ -3,7 +3,6 @@ body {
     background-repeat: repeat;
     background-color: rgb(197, 197, 197);
     width: 1440px;
-    height: 180px;
     margin: 0 auto;
 }
 
@@ -52,7 +51,6 @@ img {
 }
 
 .content {
-    height: 100vh;
     background-color: #ffffff;
     padding: 20px;
 }
@@ -78,10 +76,11 @@ h2 {
 
 .content-r {
     width: 30%;
+    margin-top: 20px;
     display: inline-block;
-    position: absolute;
-    top: 24.8%;
-    bottom: 0;
+    position: sticky;
+    top: 3%;
+    bottom: 77%;
 }
 
 .content-r > div {
@@ -97,6 +96,24 @@ footer > div {
     display: inline-block;
 }
 
+footer > div > p {
+    color: #ebebeb;
+}
+
 footer > .footer-r {
     padding-left: 900px;
+}
+
+footer > .footer-r > a {
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+footer > .footer-r > a:hover {
+    color: #009803;
+}
+
+footer > .footer-r > a:first-child {
+    border-right: 1px solid #ebebeb;
+    padding-right: 4px;
 }
