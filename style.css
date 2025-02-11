@@ -60,6 +60,10 @@ img {
     display: inline-block;
 }
 
+div.content-l > div > h1 {
+    margin: 0;
+}
+
 .item {
     border-top: 5px solid #202020;
     display: inline-block;
@@ -74,20 +78,15 @@ h2 {
     font-size: small;
 }
 
-.content-r {
-    width: 30%;
-    margin-top: 20px;
-    display: inline-block;
+div.content-r {
     position: sticky;
     top: 0;
+    float: right;
+    width: 35%;
 }
 
 .content-r > div {
     margin: 0 auto;
-}
-
-.content-r > div:last-child > img {
-
 }
 
 footer {
