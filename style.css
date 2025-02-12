@@ -89,8 +89,17 @@ h2 {
     width: 30%;
 }
 
-.content-r > div {
-    margin: 0 auto;
+.content-r > div:last-child {
+    background-color: bisque;
+    color: blue;
+    width: 90%;
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.content-r > div:last-child > p > img {
+    width: 25px;
 }
 
 footer {
